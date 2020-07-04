@@ -20,7 +20,7 @@ class Deque:
     def size(self):
         return len(self.items)
 
-s = Deque()
+d = Deque()
 
 
 
