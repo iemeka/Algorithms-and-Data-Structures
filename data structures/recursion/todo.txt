@@ -1,0 +1,35 @@
+see if you can make a small node for each page to define some things on git
+bottom up
+top down
+
+git - backtracking - nquens - combination  conains dup ...etc brackets
+ - use draw.io for graphs
+self questions in pswda
+complexity analysis
+
+git - vs code - top down, bottom up not future and past
+
+little project. make a matrix, use backtracking to visit each position base on cross -|-
+
+
+* try another solution for climb stairs. backtracking [1,2] 5 rows. generate all combinations, build the tree
+ recursion and yield.
+ learn about yield from
+
+ memoisation- optimization technique to speed up a program by storing input and their result to avoid expensive calls - cachiing - improving runtime in exchange for aditional space
+
+ divide and conquer
+ decrease and conquer
+ backtracking
+ master theorem - majorly divide and conquer recursion pattern
+ tail recursion - no post call dependency - recursiv
+ non tail recursion - 
+ analys spae complexity for both. space might be recursion or non recursion based - memoisation, etc
+ maximum depth of a recursive function is the time complexity
+ recursion and/to iteration
+ prunning - so we dont take unnecessary path. - implement this
+ divide | conquer | combine.
+
+ backtracking and divide and conquer
+d&c - clear and predefined path to solution. Num of steps are fixed 
+b&t - exact path to solution is not known in advance. num of stepes to build a solution is not known

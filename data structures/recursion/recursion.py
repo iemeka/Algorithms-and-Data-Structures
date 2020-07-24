@@ -4,7 +4,7 @@ import random
 def randeg():
     i = random.randint(15,20)
     yield i
-# 
+ 
 def tree(branch_len, t,p_size):
     if branch_len > 5:
         t.pencolor('brown')
