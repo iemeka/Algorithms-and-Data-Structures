@@ -1,35 +1,42 @@
-see if you can make a small node for each page to define some things on git
-bottom up
-top down
+Post call or no post call dependency
+* tail recursion
+* non-tail recursion
 
-git - backtracking - nquens - combination  conains dup ...etc brackets
- - use draw.io for graphs
-self questions in pswda
-complexity analysis
+Approach - (not future and past thingy)
+* Top down
+* Bottom up
 
-git - vs code - top down, bottom up not future and past
+Patterns:  divide | conquer | combine | backtracking
+* divide and conquer - clear and predefined path to solution. Num of steps are fixed 
+* decrease and conquer
+* backtracking: - exact path to solution is not known in advance. num of stepes to build a solution is not known
 
-little project. make a matrix, use backtracking to visit each position base on cross -|-
+Optimization:
+* Prunning (in backtracking) - cutting out unnecessary paths (implement)
+* Memoisation/caching - optimization technique to speed up a program by storing input and their result to avoid expensive calls, improving runtime in exchange for aditional space
 
+* Recursion and/to Iteration
 
-* try another solution for climb stairs. backtracking [1,2] 5 rows. generate all combinations, build the tree
- recursion and yield.
- learn about yield from
+Complexity Analysis
+* master theorem - (majorly divide and conquer recursion pattern)
+* Depth of recursion - maximum depth of a recursive function is the time complexity
+* space complexity:
+    Recursion based:
+    - Tail recursion
+    - Non-tail recursion
+    Non-recursion based:
+    - Memoisation - 
 
- memoisation- optimization technique to speed up a program by storing input and their result to avoid expensive calls - cachiing - improving runtime in exchange for aditional space
+* Recursion and yield
 
- divide and conquer
- decrease and conquer
- backtracking
- master theorem - majorly divide and conquer recursion pattern
- tail recursion - no post call dependency - recursiv
- non tail recursion - 
- analys spae complexity for both. space might be recursion or non recursion based - memoisation, etc
- maximum depth of a recursive function is the time complexity
- recursion and/to iteration
- prunning - so we dont take unnecessary path. - implement this
- divide | conquer | combine.
+Questions
+* backtracking - nqueens idea - combination -  conains dup, brackets ordering
+* try another solution for climb stairs. backtracking [1,2] 5 rows. generate all combinations, build the tree - backtracking and Prunning.
 
- backtracking and divide and conquer
-d&c - clear and predefined path to solution. Num of steps are fixed 
-b&t - exact path to solution is not known in advance. num of stepes to build a solution is not known
+Others
+* use draw.io for drawings
+* Self questions in pswda
+* see if you can make a small node for each page to define some things on git or perhaps you use comments here.
+
+Next - organise here.
+Next - check organisation and pick questions for for each sections.
